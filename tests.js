@@ -13,3 +13,9 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+describe('sayHello', function() {
+    it('should return a string "Hello!" when executed', function() {
+        expect(sayHello()).toBe("Hello!");
+    });
+})
